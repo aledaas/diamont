@@ -1,0 +1,19 @@
+id: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+name: Crystal Dependency Resolution
+kind: implementation_specification
+created_at: 2026-08-10
+authors:
+  - Alejandro Daas
+origin:
+  type: collaborative_reasoning
+  intent: Enable explicit, traceable, and portable reuse of crystallized knowledge across projects.
+genealogy:
+  formed_from:
+    - crystal: 24ffc57f-10aa-4222-b9ae-bd4e7dbde04a
+dependencies:
+  - crystal: 24ffc57f-10aa-4222-b9ae-bd4e7dbde04a
+    role: required
+imports: []
+sharing:
+  scope: project
+status: crystallized

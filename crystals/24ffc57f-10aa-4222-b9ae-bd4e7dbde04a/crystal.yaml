@@ -1,0 +1,16 @@
+id: 24ffc57f-10aa-4222-b9ae-bd4e7dbde04a
+name: DIAMONT Repository Restructuring Specification
+kind: implementation_specification
+created_at: 2026-08-10
+authors:
+  - Alejandro Daas
+origin:
+  type: collaborative_reasoning
+  intent: Convert the DIAMONT repository into the first project persisted under its own knowledge protocol.
+genealogy:
+  formed_from: []
+dependencies: []
+imports: []
+sharing:
+  scope: project
+status: crystallized

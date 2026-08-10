@@ -1,0 +1,7 @@
+diamont: "0.1"
+project:
+  id: diamont
+  name: DIAMONT
+requires:
+  - crystal: 24ffc57f-10aa-4222-b9ae-bd4e7dbde04a
+  - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a

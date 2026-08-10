@@ -1,0 +1,11 @@
+graph LR
+    R["24ffc57f-10aa-4222-b9ae-bd4e7dbde04a<br/>Repository Restructuring"]
+    C["9dc2828d-8bd0-4464-9c44-b5971686eb9a<br/>Crystal Dependency Resolution"]
+    S["Crystal Set<br/>(conceptual)"]
+    P["Compilation<br/>(conceptual)"]
+    G["Crystal Registry<br/>(future)"]
+
+    R -->|"formed_from · required"| C
+    C -->|"enables"| S
+    S --> P
+    C -.->|"future"| G
