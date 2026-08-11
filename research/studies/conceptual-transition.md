@@ -78,8 +78,8 @@ Retirar una responsabilidad a la vez sólo si existe equivalencia comprobada, tr
 
 ## Invariantes de cualquier implementación futura
 
-- Portfolio controla la fuente de verdad y las autorizaciones.
-- Cada Crystal tiene identidad permanente y procedencia; su evolución se expresa mediante relaciones, no mediante reemplazo o versionado.
+- El ámbito legítimo del conocimiento controla la fuente de verdad; MINA se investiga como custodio del Patrimonio y Portfolio conserva las autorizaciones de su materialización operativa.
+- Cada Crystal tiene identidad permanente y procedencia; su capacidad evoluciona mediante Faces incorporadas por recristalización y sus vínculos evolucionan mediante relaciones. Nunca se reemplaza ni versiona.
 - Las compilaciones indican exactamente qué fuentes y políticas usaron.
 - El formato canónico es abierto, exportable y legible sin el agente creador.
 - Los adaptadores específicos de proveedor viven fuera del núcleo semántico.

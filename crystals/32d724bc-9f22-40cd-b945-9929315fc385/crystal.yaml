@@ -1,0 +1,20 @@
+id: 32d724bc-9f22-40cd-b945-9929315fc385
+code: CR-DIAMONT-001
+name: El Principio de Conservación del Conocimiento
+kind: philosophy
+created_at: 2026-08-11
+authors:
+  - Alejandro Daas
+origin:
+  type: collaborative_reasoning
+  intent: Preserve and evolve the Software Factory knowledge as a permanent shared asset.
+genealogy:
+  formed_from:
+    - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+dependencies: []
+imports:
+  - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+    role: reusable_knowledge
+sharing:
+  scope: organization
+status: constitutional_review_required

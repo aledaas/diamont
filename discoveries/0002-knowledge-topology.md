@@ -70,7 +70,7 @@ Cada Crystal debe preservar permanentemente su procedencia. Su genealogía no re
 - ¿en qué compilaciones participó?;
 - ¿qué producciones contribuyó a generar?;
 - ¿qué observaciones regresaron desde esas producciones?;
-- ¿qué nuevos Cristales surgieron gracias a él?
+- ¿qué Faces, recristalizaciones o nuevos Crystals surgieron gracias a él?
 
 La hipótesis sostiene que esta genealogía forma parte del conocimiento y no es metadato administrativo prescindible.
 

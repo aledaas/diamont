@@ -26,4 +26,4 @@ Creemos que Portfolio debe implementar estas ideas sin capturarlas: DIAMONT debe
 
 ## Descubrimiento relacionado
 
-[Crystal Graph](../discoveries/0001-crystal-graph.md) investiga la posibilidad de que el conocimiento cristalizado posea identidad permanente y evolucione mediante relaciones, no versiones. Es consistente con este manifiesto y con las leyes vigentes, pero continúa siendo una hipótesis abierta.
+[Crystal Graph](../discoveries/0001-crystal-graph.md) investiga la posibilidad de que el conocimiento cristalizado posea identidad permanente, evolucione internamente mediante Faces y recristalización, y se conecte mediante relaciones. Ninguno de estos mecanismos constituye versionado. La hipótesis es consistente con este manifiesto y con las leyes vigentes.

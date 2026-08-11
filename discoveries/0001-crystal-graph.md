@@ -42,7 +42,7 @@ Un Crystal:
 - puede dejar de representar el estado vigente de una intención;
 - puede permanecer como evidencia histórica.
 
-La aparente evolución de un Crystal no altera su identidad ni reescribe su contenido histórico. Se expresa mediante nuevos Cristales y relaciones explícitas.
+La evolución de un Crystal no altera su identidad ni reescribe su historia. Se expresa mediante nuevas Faces incorporadas por recristalización y mediante relaciones explícitas con otros Crystals. Un nuevo Crystal sólo corresponde cuando el conocimiento no pertenece coherentemente a ninguno existente.
 
 ## Ciclo conceptual emergente
 
@@ -63,10 +63,12 @@ Production
     ↓
 Observation
     ↓
-New Crystal
+New Knowledge + Evidence
+    ↓
+Face or New Crystal as last resort
 ```
 
-El diagrama expresa relaciones conceptuales, no un workflow lineal ni estados de implementación. Una observación puede reabrir razonamiento antes de originar un nuevo Crystal.
+El diagrama expresa relaciones conceptuales, no un workflow lineal ni estados de implementación. Una observación puede reabrir razonamiento antes de originar una Face o, únicamente cuando el conocimiento no pertenece coherentemente a ningún Crystal existente, un nuevo Crystal.
 
 ## Principio emergente
 
@@ -85,7 +87,7 @@ El **Crystal Graph** es la hipótesis de que el conocimiento permanente se repre
 - la vigencia es una evaluación contextual del grafo, no una propiedad que destruye o reemplaza nodos anteriores;
 - una compilación selecciona Cristales y relaciones pertinentes para una intención, capacidad y contexto concretos;
 - una producción conserva trazabilidad hacia el conjunto exacto que la originó;
-- la observación puede conducir a nuevos Cristales y relaciones sin reescribir los anteriores.
+- la observación puede conducir a una nueva Face del mismo Crystal o, como último recurso, a un nuevo Crystal, siempre preservando genealogía y evidencia.
 
 Los tipos de relación enumerados son candidatos de investigación, no un catálogo aprobado.
 
@@ -97,7 +99,7 @@ Crystal Graph no modifica las leyes constitucionales. Propone un mecanismo conce
 - **Leyes 2 y 3:** una conversación sólo puede originar un Crystal después del razonamiento conjunto y la comprensión compartida.
 - **Ley 5:** la identidad permanente ayuda a que el conocimiento pertenezca al proyecto y sobreviva a actores y modelos.
 - **Ley 6:** la compilación debe derivar de uno o más Cristales identificables sin convertir su representación compilada en fuente de verdad.
-- **Ley 8:** la retroalimentación se expresaría mediante nuevos Cristales y relaciones, preservando la experiencia anterior.
+- **Ley 8:** la retroalimentación puede expresarse mediante recristalización, nuevas Faces y relaciones, preservando identidad, genealogía y experiencia anterior.
 - **Leyes 9 y 10:** el grafo debe preservar valor de negocio y permanecer independiente de Portfolio, aunque Portfolio sea su primera implementación.
 
 Esta lectura es una interpretación investigativa de la [Constitución v0.1](../docs/CONSTITUTION.md), no una enmienda.
@@ -129,7 +131,7 @@ Portfolio actualmente usa `KnowledgeDocument.version` y activación exclusiva po
 9. ¿Cómo conviven Cristales contradictorios o válidos bajo contextos diferentes?
 10. ¿Qué diferencia un nuevo Crystal de una relación o de evidencia adjunta?
 11. ¿Cómo se corrige una cristalización errónea sin borrar su valor histórico?
-12. ¿Cómo evoluciona el grafo sin introducir versionado implícito bajo otro nombre?
+12. ¿Cómo registra el grafo Faces y recristalizaciones sin introducir versionado implícito bajo otro nombre?
 
 ## Evidencia necesaria
 

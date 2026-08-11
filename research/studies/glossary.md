@@ -6,7 +6,7 @@ Los términos de este glosario son instrumentos de investigación. Su presencia 
 
 Conocimiento al que se le ha dado una forma durable, identificable y trazable, suficientemente precisa para ser interpretado o transformado fuera de la conversación que lo originó.
 
-La hipótesis [Crystal Graph](../../discoveries/0001-crystal-graph.md) propone que adopta la forma de uno o más Cristales permanentes y que su evolución ocurre mediante relaciones, no versiones.
+La hipótesis [Crystal Graph](../../discoveries/0001-crystal-graph.md) propone que adopta la forma de uno o más Cristales permanentes. Cada Crystal evoluciona mediante Faces y recristalización; el Graph evoluciona además mediante relaciones. Ninguno de estos mecanismos constituye versionado.
 
 Pendiente: definir criterios de suficiencia, granularidad y vigencia.
 
@@ -16,7 +16,43 @@ Proceso por el cual comprensión contextual se expresa como conocimiento durable
 
 ## Crystal
 
-Unidad permanente de conocimiento que emerge al cristalizar una comprensión compartida. Posee identidad propia, no se versiona ni se reemplaza; puede enriquecerse y relacionarse con otros Cristales. Esta definición es una hipótesis activa, no una ley constitucional ni una entidad implementada.
+Unidad permanente de conocimiento que emerge al cristalizar una comprensión compartida. Posee una única identidad, no se versiona ni se reemplaza. Puede aumentar su capacidad mediante Faces incorporadas por recristalización y relacionarse con otros Crystals.
+
+## Face
+
+Virtud o dimensión del conocimiento que permite a un Crystal satisfacer una necesidad determinada. Una Face pertenece al mismo Crystal únicamente cuando conserva coherencia con su identidad conceptual. No posee versiones y no convierte al Crystal en `v2`, `v3` o equivalente.
+
+## Recrystallization
+
+Proceso por el cual conocimiento adicional, respaldado por evidencia, se incorpora como una nueva Face de un Crystal existente preservando su identidad. La genealogía registra el contexto, proyecto y evidencia que originaron la Face. No es una revisión, generación o versión.
+
+## Composer
+
+Responsabilidad conceptual que compara las virtudes requeridas por una Idea con las Faces disponibles en el Patrimonio, evalúa suficiencia y detecta gaps. Propone un nuevo Crystal sólo cuando ninguna composición ni recristalización coherente puede satisfacer el conocimiento faltante.
+
+## MINA
+
+Patrimonio cognitivo de DIAMONT y capacidad metodológica de comprenderlo, custodiarlo y operarlo para ayudar a resolver Ideas. Es el puente conceptual hacia los proyectos: descubre Crystals y Faces, evalúa suficiencia, detecta gaps y sugiere composiciones. No es una aplicación, modelo de IA o interfaz concreta; no define DIAMONT, administra proyectos ni ejecuta producción.
+
+## Patrimonio
+
+Activo cognitivo vivo compuesto por Crystals, Faces, genealogías, relaciones, evidencia, observaciones, Discoveries y composiciones conocidas, conservando explícitamente el estado epistemológico de cada elemento. No equivale a un repositorio de archivos o modelo de IA. MINA lo custodia y explora sin ser su propietaria.
+
+## Local MINA
+
+Primera implementación técnica propuesta para interactuar localmente con MINA: leer representaciones del Patrimonio, asistir en la interpretación de una Idea, aplicar DIAMONT y producir una propuesta razonada. Podría alojarse inicialmente como herramienta modular dentro del Runner Go sin pertenecer conceptualmente al Runner. No es todavía un diseño aprobado ni define la identidad de MINA.
+
+## Known Implementation
+
+Implementación externa o interna conocida de conocimiento expresado por un Crystal, evaluada dentro de un contexto tecnológico. Un package o framework no se convierte automáticamente en Crystal y no redefine su identidad.
+
+## Context Narrowing
+
+Reducción contextual del espacio de búsqueda de implementaciones o conocimiento aplicable, usando restricciones explícitas del proyecto sin redefinir el Crystal ni elevar una preferencia local a verdad permanente.
+
+## Controlled Crystallization
+
+Separación obligatoria entre resultado de ejecución y conocimiento aceptado. Evidencia y observaciones originan una propuesta; sólo una aprobación de cristalización permite enriquecer el Patrimonio.
 
 ## Crystal Graph
 
@@ -72,7 +108,7 @@ Evidencia capturada sobre una producción o sobre el entorno relevante. Debe dis
 
 ## Aprendizaje
 
-Cambio trazable que emerge de observaciones validadas. Bajo la hipótesis Crystal Graph no modifica ni elimina un Crystal anterior: produce nuevo conocimiento o nuevas relaciones que permiten confirmarlo, limitarlo, contradecirlo o dejar de considerarlo vigente.
+Cambio trazable que emerge de observaciones validadas. Puede originar una nueva Face mediante recristalización, una relación o —como último recurso— un nuevo Crystal. Nunca crea una versión ni elimina la historia anterior.
 
 ## Agente
 
@@ -80,4 +116,4 @@ Actor humano o artificial capaz de interpretar contexto y realizar transformacio
 
 ## Portfolio
 
-Primera implementación nativa y sistema custodio previsto para DIAMONT. Portfolio conserva conocimiento, políticas, permisos, procedencia y evidencia bajo control del proyecto; esa custodia no transfiere la propiedad a Portfolio ni a los agentes.
+Primera plataforma prevista para materializar conocimiento DIAMONT en proyectos. Portfolio aporta contexto, produce evidencia y consume composiciones sugeridas por MINA; no define la metodología ni custodia el Patrimonio.

@@ -10,12 +10,22 @@ Este registro contiene preguntas abiertas; no constituye conocimiento cristaliza
 4. ¿Cómo se representan contradicciones, incertidumbre y vigencia mediante relaciones sin borrar historia ni reemplazar Cristales?
 5. ¿Qué parte de una compilación debe ser determinista para considerarla reproducible?
 6. ¿Cómo se atribuyen decisiones cuando colaboran múltiples personas y agentes?
-7. ¿Cómo produce una observación nuevos Cristales o relaciones sin modificar los existentes?
+7. ¿Cómo determina una observación si el conocimiento debe incorporarse como Face, relación o —como último recurso— nuevo Crystal?
 8. ¿Qué capacidades actuales de Feature, Task y Execution son esenciales y cuáles son accidentes del modelo vigente?
 9. ¿Cómo se preserva y consulta la genealogía completa de un Crystal sin depender de su ubicación física?
 10. ¿Cómo puede navegarse y visualizarse un grafo con miles de Cristales sin imponerle una jerarquía artificial?
 11. ¿Cómo se mide alineación con una intención sin reducirla a progreso, similitud textual o una puntuación opaca?
 12. ¿Cuál es el Crystal Set mínimo suficiente para una acción y cómo se demuestra que no omite conocimiento esencial?
+13. ¿Cómo asiste MINA a interpretar una Idea sin apropiarse del razonamiento conjunto?
+14. ¿Qué protocolo permite a un proyecto consultar y contribuir conocimiento sin modificar directamente Crystals?
+15. ¿Cómo se demuestra que Before Create, Search fue ejecutado con suficiente profundidad?
+16. ¿Cómo permanece MINA independiente de cualquier motor de inferencia?
+17. ¿Cómo preserva distintos estados epistemológicos al recibir conocimiento de proyectos?
+18. ¿Qué condiciones deben preceder a Local MINA, un agente especializado o un dataset DIAMONT?
+19. ¿Cómo puede MINA Local vivir dentro del Runner sin adquirir dependencia conceptual o técnica irreversible?
+20. ¿Cómo representa el Patrimonio implementaciones conocidas sin confundirlas con Crystals?
+21. ¿Qué separa formalmente approval de ejecución y approval de cristalización?
+22. ¿Qué experimento mínimo valida MINA Analyze read-only antes de permitir búsqueda externa?
 
 ## Portabilidad entre agentes
 
