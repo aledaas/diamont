@@ -1,0 +1,60 @@
+compilation: ae9eba90-82c5-4db3-a050-657b2e215414
+constitutional:
+  - path: docs/CONSTITUTION.md
+    role: normative_authority
+    sha256: 4f8390f8e973e8d0a124746988696c6095a8c872ba0277a93a88ace200ce785e
+  - path: docs/MANIFESTO.md
+    role: philosophical_orientation
+    sha256: acc1a701493cbd1e90f0c8dbd17dce43b7eb1fa5739ce4cbcd33c7ae764a4ad3
+  - path: docs/FOUNDATION.md
+    role: research_foundation
+    sha256: e305a3cf6424e6f241bd8c73d2743092b839a799d3cf82d0d430a42bd4cc1635
+active_crystals:
+  - crystal: 24ffc57f-10aa-4222-b9ae-bd4e7dbde04a
+    descriptor: crystals/24ffc57f-10aa-4222-b9ae-bd4e7dbde04a/crystal.yaml
+    descriptor_sha256: 2f81b022d2eb6b37424ff9215bc0be140c6d0bd5ecdeb8d8114961fcda0e6fa8
+    knowledge: crystals/24ffc57f-10aa-4222-b9ae-bd4e7dbde04a/knowledge.md
+    knowledge_sha256: dda0795c32aae88cae0693e24abc8008532969d75c9947b265ebc6204e5e4162
+  - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+    descriptor: crystals/9dc2828d-8bd0-4464-9c44-b5971686eb9a/crystal.yaml
+    descriptor_sha256: ec4e8903f501e70c6789dedf26b379c09023b3e159e6189e4785fecf6ff75caa
+    knowledge: crystals/9dc2828d-8bd0-4464-9c44-b5971686eb9a/knowledge.md
+    knowledge_sha256: 219e6818cbd77ce8360ccc9c8d922549460c522830104e4ff18be6839e0750ac
+candidate_crystals:
+  - crystal: 32d724bc-9f22-40cd-b945-9929315fc385
+    code: CR-DIAMONT-001
+    status: constitutional_review_required
+    activation: prohibited
+    descriptor: crystals/32d724bc-9f22-40cd-b945-9929315fc385/crystal.yaml
+    descriptor_sha256: 06cebdb9408666c37135137dbc29ac6a2f36db004893be5ed75fb3c08c894caf
+    knowledge: crystals/32d724bc-9f22-40cd-b945-9929315fc385/knowledge.md
+    knowledge_sha256: a6f7aab7e8785f04bc9e073dc0e96362c2cbf9589e1fe91486ec6a6590753863
+discoveries:
+  - id: "0001"
+    status: hypothesis_active
+    path: discoveries/0001-crystal-graph.md
+    sha256: d0a60cf65af9da68f3da230a8486255c46964d4b4f3ec0faf88500461b4e48e5
+  - id: "0002"
+    status: discovery_observed
+    path: discoveries/0002-knowledge-topology.md
+    sha256: 13cc00873aa4457077be9b0cf1bfb4996d2fc6fed2d5f31fc14edaced69d226f
+  - id: "0003"
+    status: discovery_observed
+    path: discoveries/0003-crystal-orchestration-intent-recentering.md
+    sha256: 9a6cfaddbc77fdae877001482bee200bcd865f7630c67c7fbf5fe5e1d6ac6aed
+research:
+  - path: research/protocols/research-protocol.md
+    kind: protocol
+    sha256: 7d4cde7b698c1d09b44fc6f9102cc29fc6cf938c93ce37fb2ce77155d37d34fe
+  - path: research/questions/open-questions.md
+    kind: open_questions
+    sha256: 53afa986f2028564e585b759931c450670bfdf771ea91052da7083eebdcbd3ea
+  - path: research/studies/conceptual-transition.md
+    kind: study
+    sha256: ae4a02ab1c6176e77db1168ba87815a1980ecbbee965d9eeee1f69b99967f404
+  - path: research/studies/glossary.md
+    kind: provisional_glossary
+    sha256: b81b5516aff9032b254f9a9ee53c768160671c76d1eb4d16576e8b7cfb3a4ea5
+  - path: research/studies/portfolio-current-model.md
+    kind: observed_system_study
+    sha256: 21a9b128ebba4f6c7ff57a63f56c6e00b9b1f68f24a139fea243c91653593d2b

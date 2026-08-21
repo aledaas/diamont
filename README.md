@@ -63,3 +63,7 @@ La [especificación de reestructuración](crystals/24ffc57f-10aa-4222-b9ae-bd4e7
 ## Regla de propiedad
 
 Los agentes pueden interpretar, transformar y producir a partir del conocimiento, pero no son su fuente de verdad. El conocimiento debe permanecer bajo control de su ámbito legítimo, con identidad permanente, procedencia y posibilidad de reproducción independiente del producto, proveedor o modelo de IA. MINA se investiga como custodio y explorador del Patrimonio; Portfolio será la primera implementación nativa de DIAMONT y materializará ese conocimiento en proyectos.
+
+## Compilations
+
+[portfolio-mina-bootstrap](compilations/ae9eba90-82c5-4db3-a050-657b2e215414/README.md) entrega a Development Portfolio un Knowledge Set reproducible y verificable sin duplicar la fuente canónica del Patrimonio.
