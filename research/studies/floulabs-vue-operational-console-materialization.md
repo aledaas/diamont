@@ -260,3 +260,29 @@ Después del experimento deberá compararse el costo real de mantener Vue aislad
 La implementación Vue de `/console` es una **Known Materialization candidata reutilizable**, no un Crystal y no un paquete listo para copiar.
 
 Su valor para el primer experimento MINA consiste en demostrar que el Patrimonio puede relacionar conocimiento, implementación, evidencia, restricciones de licencia y adaptaciones contextuales sin confundir ninguno de esos elementos.
+
+## Hipótesis de extracción canónica
+
+La reutilización entre Floulabs y Portfolio no debe convertir el checkout `meta-gateway-2.0` en dependencia operacional ni copiar la carpeta completa dentro del Patrimonio.
+
+La frontera reusable deberá extraerse primero como una Materialization neutral y publicable desde una autoridad única, siguiendo contratos ordinarios del ecosistema tecnológico. Para este caso, la forma candidata es un package frontend instalable que:
+
+- elimine marca, dominios, rutas y permisos de Floulabs;
+- excluya `mt-vendor` y cualquier asset cuya redistribución no esté confirmada;
+- exponga un mount aislado, bootstrap tipado y primitivas propias mínimas;
+- declare compatibilidad, peer dependencies, licencia y procedencia;
+- pueda construirse y probarse fuera del proyecto de origen;
+- produzca un artefacto con digest reproducible.
+
+MINA conservaría en su Materialization Registry:
+
+- identidad permanente de la Materialization;
+- Crystals, Faces o conocimiento candidato que materializa;
+- autoridad y coordenadas del package;
+- digest de la representación autorizada;
+- compatibilidad técnica;
+- clasificación y política de acceso;
+- licencia y restricciones;
+- evidencia y genealogía hacia Floulabs.
+
+Portfolio recibiría esas coordenadas mediante una Compilation y utilizaría el gestor de paquetes correspondiente. El worker no necesitaría clonar DIAMONT ni Floulabs, y el package no adquiriría identidad de Crystal por ser instalable.

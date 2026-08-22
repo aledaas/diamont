@@ -1,0 +1,18 @@
+id: d3ea8d5d-9835-4547-a06a-636b36d08910
+name: portfolio-mina-materialization-custody
+kind: consumer_experiment
+created_at: 2026-08-21
+consumer:
+  id: development-portfolio
+  role: first_native_web_implementation
+capability: materialization_registry_experiment
+source:
+  repository: https://github.com/aledaas/diamont.git
+  commit: 3c1a67af560162d19c745b7d3808809cd573dc75
+knowledge_set: knowledge-set.yaml
+adoption_contract: adoption-contract.md
+integrity:
+  algorithm: sha256
+  checksum_file: sources/checksums.sha256
+  checksum_file_sha256: 4ec55763d2dca9767065474b5775d22ee4a09d39c1da147d5b2b44ff216fcc9f
+status: compiled

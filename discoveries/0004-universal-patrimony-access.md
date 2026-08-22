@@ -83,6 +83,32 @@ La hipótesis emergente es que MINA pueda construirla bajo demanda como evidenci
 
 Git puede conservar exportaciones, revisión, historia y distribución offline sin convertirse en el único mecanismo de descubrimiento operacional.
 
+## Resolución de implementaciones reutilizables
+
+El acceso universal al conocimiento no implica almacenar código fuente dentro del Crystal Graph ni dentro de una Compilation cognitiva.
+
+Se observa una separación equivalente a la utilizada por ecosistemas de paquetes:
+
+```text
+Crystal + Faces
+        ↓ relaciones de materialización
+MINA Materialization Registry
+        ↓ coordenadas, integridad y compatibilidad
+Canonical Package Authority
+        ↓ distribución normal del ecosistema
+Consumer Project
+```
+
+- Un **Crystal** expresa conocimiento abstracto y preserva identidad independiente de cualquier lenguaje o framework.
+- Una **Materialization** demuestra o implementa determinadas Faces bajo un contexto técnico explícito.
+- El **Materialization Registry** permite a MINA relacionar conocimiento, evidencia, restricciones, compatibilidad y coordenadas de distribución.
+- La **Canonical Package Authority** conserva los artefactos instalables en un repositorio o registry adecuado para su tecnología.
+- La **Compilation** entrega al actor la selección, los digests, las restricciones y las coordenadas exactas; no necesita transportar manualmente todo el código.
+
+MINA no debe responder con una ruta circunstancial hacia el checkout donde nació la implementación. Debe resolver una autoridad estable, verificable y accesible según la política del consumidor. El proyecto de origen permanece como genealogía y evidencia; no se convierte en dependencia operacional de los demás proyectos.
+
+La autoridad de un paquete tampoco se convierte en autoridad del conocimiento. Un mismo Crystal puede poseer distintas Materializations coherentes para Laravel, JavaScript u otros contextos sin versionar el Crystal ni fusionar conocimiento con tecnología.
+
 ## Centralización sin apropiación
 
 La disponibilidad común del Patrimonio requiere una materialización operacional compartida, pero centralizar el acceso no transfiere propiedad intelectual a:
@@ -168,6 +194,7 @@ El experimento debe demostrar que un actor nuevo descubre la metodología y el c
 8. ¿Cómo devuelve un proyecto evidencia sin adquirir autoridad de cristalización?
 9. ¿Qué conocimiento real permite comprobar el primer flujo entre dos proyectos?
 10. ¿Qué evidencia justificaría separar una primera MINA Local del Runner?
+11. ¿Qué contratos mínimos necesita un Materialization Registry para resolver paquetes canónicos sin acoplar DIAMONT a Composer, NPM o Git?
 
 ## Relación con la Constitución
 
