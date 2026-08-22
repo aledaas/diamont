@@ -8,7 +8,7 @@ consumer:
 capability: materialization_registry_experiment
 source:
   repository: https://github.com/aledaas/diamont.git
-  commit: 3c1a67af560162d19c745b7d3808809cd573dc75
+  commit: 6d048317c05d6096e03c78ab9b1565df55f43ed5
 knowledge_set: knowledge-set.yaml
 adoption_contract: adoption-contract.md
 integrity:

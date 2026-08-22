@@ -6,7 +6,7 @@
 | Consumidor | `development-portfolio` |
 | Capacidad | `materialization_registry_experiment` |
 | Fuente | `https://github.com/aledaas/diamont.git` |
-| Commit del Patrimonio | `3c1a67af560162d19c745b7d3808809cd573dc75` |
+| Commit del Patrimonio | `6d048317c05d6096e03c78ab9b1565df55f43ed5` |
 | Estado | `compiled` |
 
 Esta Compilation habilita el siguiente experimento de MINA sin transferir autoridad del Patrimonio a Portfolio ni convertir un repositorio de packages en fuente de conocimiento.
@@ -17,4 +17,3 @@ Esta Compilation habilita el siguiente experimento de MINA sin transferir autori
 - [Knowledge Set](knowledge-set.yaml)
 - [Contrato de adopción](adoption-contract.md)
 - [Checksums](sources/checksums.sha256)
-
