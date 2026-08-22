@@ -1,0 +1,9 @@
+{
+  "error_code": "MINA_CONTEXT_INSUFFICIENT",
+  "message": "La comprensión compartida no permite resolver la solicitud.",
+  "request_id": "019f1234-5678-7abc-8def-0123456789ab",
+  "retryable": false,
+  "required_information": ["Definir el alcance de pacientes"],
+  "diagnostics": [],
+  "occurred_at": "2026-08-21T18:00:01Z"
+}

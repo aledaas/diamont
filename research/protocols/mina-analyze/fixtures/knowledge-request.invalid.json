@@ -1,0 +1,19 @@
+{
+  "protocol_revision": "mina.analyze/2026-08-21",
+  "message_id": "019f1234-5678-7abc-8def-0123456789ab",
+  "message_type": "knowledge_request",
+  "created_at": "2026-08-21T18:00:00Z",
+  "issuer": {"type": "project", "id": "development-portfolio"},
+  "payload": {
+    "request_id": "019f1234-5678-7abc-8def-0123456789ab",
+    "capability": "analyze",
+    "idea": {"statement": "Necesito administrar pacientes", "origin_reference": "portfolio:idea:example"},
+    "shared_understanding": {"status": "sufficient_for_analysis", "statements": [], "uncertainties": []},
+    "project_context": {"project_id": "development-portfolio", "objective": "Explorar conocimiento reutilizable", "scope": ["analysis"], "out_of_scope": [], "constraints": [], "authorized_references": []},
+    "execution_intent": {"mode": "analyze", "purpose": "Descubrir conocimiento", "target_reference": null, "expected_outcome": "explainable_knowledge_resolution"},
+    "actor_capability": {"role": "software_development_worker", "can_interpret": ["structured_json"], "can_execute": true},
+    "authority_context": {"allowed": ["read_knowledge"], "prohibited": ["execute", "external_search", "write_patrimony", "crystallize"]},
+    "knowledge_policy": {"maximum_classification": "project_shared", "external_search": false, "include_materializations": "references_only"}
+  },
+  "integrity": {"canonicalization": "jcs-rfc8785", "algorithm": "sha256", "payload_digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+}

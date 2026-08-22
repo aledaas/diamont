@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://diamont.example/schemas/mina/analyze/2026-08-21/knowledge-request.schema.json",
+  "title": "MINA Analyze KnowledgeRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol_revision", "message_id", "message_type", "created_at", "issuer", "payload", "integrity"],
+  "properties": {
+    "protocol_revision": {"const": "mina.analyze/2026-08-21"},
+    "message_id": {"$ref": "#/$defs/uuidV7"},
+    "message_type": {"const": "knowledge_request"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "issuer": {"$ref": "#/$defs/issuer"},
+    "payload": {"$ref": "#/$defs/requestPayload"},
+    "integrity": {"$ref": "#/$defs/integrity"}
+  },
+  "$defs": {
+    "uuidV7": {"type": "string", "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "stringArray": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "issuer": {"type": "object", "additionalProperties": false, "required": ["type", "id"], "properties": {"type": {"enum": ["project", "actor", "service"]}, "id": {"type": "string", "minLength": 1}}},
+    "integrity": {"type": "object", "additionalProperties": false, "required": ["canonicalization", "algorithm", "payload_digest"], "properties": {"canonicalization": {"const": "jcs-rfc8785"}, "algorithm": {"const": "sha256"}, "payload_digest": {"$ref": "#/$defs/sha256"}}},
+    "requestPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["request_id", "capability", "idea", "shared_understanding", "project_context", "execution_intent", "actor_capability", "authority_context", "knowledge_policy"],
+      "properties": {
+        "request_id": {"$ref": "#/$defs/uuidV7"},
+        "capability": {"const": "analyze"},
+        "idea": {"type": "object", "additionalProperties": false, "required": ["statement", "origin_reference"], "properties": {"statement": {"type": "string", "minLength": 1}, "origin_reference": {"type": "string", "minLength": 1}}},
+        "shared_understanding": {"type": "object", "additionalProperties": false, "required": ["status", "statements", "uncertainties"], "properties": {"status": {"enum": ["sufficient_for_analysis", "insufficient"]}, "statements": {"$ref": "#/$defs/stringArray"}, "uncertainties": {"$ref": "#/$defs/stringArray"}}},
+        "project_context": {"type": "object", "additionalProperties": false, "required": ["project_id", "objective", "scope", "out_of_scope", "constraints", "authorized_references"], "properties": {"project_id": {"type": "string", "minLength": 1}, "objective": {"type": "string", "minLength": 1}, "scope": {"$ref": "#/$defs/stringArray"}, "out_of_scope": {"$ref": "#/$defs/stringArray"}, "constraints": {"$ref": "#/$defs/stringArray"}, "authorized_references": {"$ref": "#/$defs/stringArray"}}},
+        "execution_intent": {"type": "object", "additionalProperties": false, "required": ["mode", "purpose", "target_reference", "expected_outcome"], "properties": {"mode": {"const": "analyze"}, "purpose": {"type": "string", "minLength": 1}, "target_reference": {"type": ["string", "null"]}, "expected_outcome": {"const": "explainable_knowledge_resolution"}}},
+        "actor_capability": {"type": "object", "additionalProperties": false, "required": ["role", "can_interpret", "can_execute"], "properties": {"role": {"type": "string", "minLength": 1}, "can_interpret": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["structured_json", "markdown", "plain_text"]}}, "can_execute": {"const": false}}},
+        "authority_context": {"type": "object", "additionalProperties": false, "required": ["allowed", "prohibited"], "properties": {"allowed": {"$ref": "#/$defs/stringArray"}, "prohibited": {"type": "array", "allOf": [{"contains": {"const": "execute"}}, {"contains": {"const": "external_search"}}, {"contains": {"const": "write_patrimony"}}, {"contains": {"const": "crystallize"}}], "items": {"type": "string"}, "uniqueItems": true}}},
+        "knowledge_policy": {"type": "object", "additionalProperties": false, "required": ["maximum_classification", "external_search", "include_materializations"], "properties": {"maximum_classification": {"enum": ["public", "project_shared"]}, "external_search": {"const": false}, "include_materializations": {"enum": ["none", "references_only"]}}}
+      }
+    }
+  }
+}

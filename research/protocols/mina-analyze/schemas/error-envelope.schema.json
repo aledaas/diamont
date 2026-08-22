@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://diamont.example/schemas/mina/analyze/2026-08-21/error-envelope.schema.json",
+  "title": "MINA Analyze Error Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["error_code", "message", "request_id", "retryable", "required_information", "diagnostics", "occurred_at"],
+  "properties": {
+    "error_code": {"enum": ["MINA_PROTOCOL_UNSUPPORTED", "MINA_INTEGRITY_INVALID", "MINA_IDEMPOTENCY_CONFLICT", "MINA_CONTEXT_INSUFFICIENT", "MINA_SHARED_REASONING_REQUIRED", "MINA_AUTHORITY_DENIED", "MINA_PATRIMONY_UNAVAILABLE", "MINA_PATRIMONY_UNVERIFIABLE", "MINA_RESOLUTION_FAILED"]},
+    "message": {"type": "string", "minLength": 1},
+    "request_id": {"type": ["string", "null"], "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "retryable": {"type": "boolean"},
+    "required_information": {"type": "array", "items": {"type": "string"}},
+    "diagnostics": {"type": "array", "items": {"type": "string"}},
+    "occurred_at": {"type": "string", "format": "date-time"}
+  }
+}

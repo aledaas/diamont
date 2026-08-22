@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://diamont.example/schemas/mina/analyze/2026-08-21/mina-resolution.schema.json",
+  "title": "MINA Analyze MinaResolution",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol_revision", "message_id", "message_type", "created_at", "issuer", "payload", "integrity"],
+  "properties": {
+    "protocol_revision": {"const": "mina.analyze/2026-08-21"},
+    "message_id": {"$ref": "#/$defs/uuidV7"},
+    "message_type": {"const": "mina_resolution"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "issuer": {"type": "object", "additionalProperties": false, "required": ["type", "id"], "properties": {"type": {"const": "service"}, "id": {"const": "mina"}}},
+    "payload": {"$ref": "#/$defs/resolutionPayload"},
+    "integrity": {"$ref": "#/$defs/integrity"}
+  },
+  "$defs": {
+    "uuidV7": {"type": "string", "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "crystalUuid": {"type": "string", "format": "uuid"},
+    "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "stringArray": {"type": "array", "items": {"type": "string"}},
+    "integrity": {"type": "object", "additionalProperties": false, "required": ["canonicalization", "algorithm", "payload_digest"], "properties": {"canonicalization": {"const": "jcs-rfc8785"}, "algorithm": {"const": "sha256"}, "payload_digest": {"$ref": "#/$defs/sha256"}}},
+    "crystalReference": {"type": "object", "additionalProperties": false, "required": ["crystal_id", "role", "epistemological_assertion"], "properties": {"crystal_id": {"$ref": "#/$defs/crystalUuid"}, "role": {"type": "string", "minLength": 1}, "epistemological_assertion": {"type": "string", "minLength": 1}}},
+    "faceReference": {"type": "object", "additionalProperties": false, "required": ["crystal_id", "face_id", "virtue"], "properties": {"crystal_id": {"$ref": "#/$defs/crystalUuid"}, "face_id": {"type": "string", "minLength": 1}, "virtue": {"type": "string", "minLength": 1}}},
+    "relationReference": {"type": "object", "additionalProperties": false, "required": ["relation_id", "from_crystal", "to_crystal", "type"], "properties": {"relation_id": {"type": "string", "minLength": 1}, "from_crystal": {"$ref": "#/$defs/crystalUuid"}, "to_crystal": {"$ref": "#/$defs/crystalUuid"}, "type": {"type": "string", "minLength": 1}}},
+    "receipt": {"type": "object", "additionalProperties": false, "required": ["compilation_id", "patrimony_authority", "patrimony_materialization", "request_id", "resolution_id", "crystal_set_digest", "representation", "generated_at", "generator"], "properties": {"compilation_id": {"$ref": "#/$defs/uuidV7"}, "patrimony_authority": {"type": "string", "minLength": 1}, "patrimony_materialization": {"type": "object", "additionalProperties": false, "required": ["kind", "identity"], "properties": {"kind": {"type": "string", "minLength": 1}, "identity": {"type": "string", "minLength": 1}}}, "request_id": {"$ref": "#/$defs/uuidV7"}, "resolution_id": {"$ref": "#/$defs/uuidV7"}, "crystal_set_digest": {"$ref": "#/$defs/sha256"}, "representation": {"type": "object", "additionalProperties": false, "required": ["media_type", "digest"], "properties": {"media_type": {"type": "string", "minLength": 1}, "digest": {"$ref": "#/$defs/sha256"}}}, "generated_at": {"type": "string", "format": "date-time"}, "generator": {"type": "object", "additionalProperties": false, "required": ["capability"], "properties": {"capability": {"const": "mina.analyze"}}}}},
+    "resolutionPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["resolution_id", "request_id", "request_payload_digest", "outcome", "intent_alignment", "required_virtues", "crystal_set", "selection_rationale", "coverage", "contradictions", "knowledge_gaps", "context_limits", "epistemological_assertions", "suggested_composition", "suggested_actions", "approval_requirements", "sources", "uncertainties", "compilation_receipt"],
+      "properties": {
+        "resolution_id": {"$ref": "#/$defs/uuidV7"}, "request_id": {"$ref": "#/$defs/uuidV7"}, "request_payload_digest": {"$ref": "#/$defs/sha256"},
+        "outcome": {"enum": ["SUFFICIENT", "PARTIALLY_SUFFICIENT", "INSUFFICIENT", "CONTRADICTORY", "UNRESOLVABLE"]},
+        "intent_alignment": {"type": "object", "additionalProperties": false, "required": ["idea_preserved", "execution_intent", "explanation"], "properties": {"idea_preserved": {"const": true}, "execution_intent": {"const": "analyze"}, "explanation": {"type": "string", "minLength": 1}}},
+        "required_virtues": {"$ref": "#/$defs/stringArray"},
+        "crystal_set": {"type": "object", "additionalProperties": false, "required": ["crystals", "faces", "relations"], "properties": {"crystals": {"type": "array", "items": {"$ref": "#/$defs/crystalReference"}}, "faces": {"type": "array", "items": {"$ref": "#/$defs/faceReference"}}, "relations": {"type": "array", "items": {"$ref": "#/$defs/relationReference"}}}},
+        "selection_rationale": {"$ref": "#/$defs/stringArray"}, "coverage": {"$ref": "#/$defs/stringArray"}, "contradictions": {"$ref": "#/$defs/stringArray"}, "knowledge_gaps": {"$ref": "#/$defs/stringArray"}, "context_limits": {"$ref": "#/$defs/stringArray"}, "epistemological_assertions": {"$ref": "#/$defs/stringArray"}, "suggested_composition": {"$ref": "#/$defs/stringArray"}, "suggested_actions": {"$ref": "#/$defs/stringArray"}, "approval_requirements": {"$ref": "#/$defs/stringArray"}, "sources": {"$ref": "#/$defs/stringArray"}, "uncertainties": {"$ref": "#/$defs/stringArray"},
+        "compilation_receipt": {"$ref": "#/$defs/receipt"}
+      }
+    }
+  }
+}

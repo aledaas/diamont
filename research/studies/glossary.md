@@ -32,11 +32,11 @@ Responsabilidad conceptual que compara las virtudes requeridas por una Idea con 
 
 ## MINA
 
-Patrimonio cognitivo de DIAMONT y capacidad metodológica de comprenderlo, custodiarlo y operarlo para ayudar a resolver Ideas. Es el puente conceptual hacia los proyectos: descubre Crystals y Faces, evalúa suficiencia, detecta gaps y sugiere composiciones. No es una aplicación, modelo de IA o interfaz concreta; no define DIAMONT, administra proyectos ni ejecuta producción.
+Capacidad cognitiva de custodiar, explorar y operar el Patrimonio para ayudar a resolver Ideas. Es el puente conceptual hacia los proyectos: descubre Crystals y Faces, evalúa suficiencia, detecta gaps y sugiere composiciones. No es el Patrimonio, su propietaria, una aplicación, un modelo de IA o una interfaz concreta; no define DIAMONT, administra proyectos ni ejecuta producción. Esta distinción refina la definición provisional registrada en el [Discovery 0003](../../discoveries/0003-crystal-orchestration-intent-recentering.md) y se investiga en [Acceso Universal al Patrimonio](../../discoveries/0004-universal-patrimony-access.md).
 
 ## Patrimonio
 
-Activo cognitivo vivo compuesto por Crystals, Faces, genealogías, relaciones, evidencia, observaciones, Discoveries y composiciones conocidas, conservando explícitamente el estado epistemológico de cada elemento. No equivale a un repositorio de archivos o modelo de IA. MINA lo custodia y explora sin ser su propietaria.
+Activo cognitivo lógico y vivo compuesto por Crystals, Faces, genealogías, relaciones, evidencia, observaciones, Discoveries y composiciones conocidas, conservando explícitamente el estado epistemológico de cada elemento. No equivale a Git, una base de datos, una Compilation, un repositorio de archivos o un modelo de IA. MINA lo custodia y explora sin ser su propietaria.
 
 ## Local MINA
 
@@ -77,6 +77,18 @@ Responsabilidad conceptual futura que construiría el conocimiento adecuado para
 ## Crystal Set
 
 Conjunto mínimo de Cristales y relaciones contextualmente necesarios para ejecutar correctamente una acción. La hipótesis [Crystal Orchestration](../../discoveries/0003-crystal-orchestration-intent-recentering.md) lo propone como unidad de producción de DIAMONT.
+
+## Execution Intent
+
+Propósito operativo concreto para el que un actor solicita conocimiento: comprender, diseñar, planificar, implementar, revisar, observar o aprender. No reemplaza la intención original; la contextualiza para una participación y debe conservar trazabilidad hacia ella.
+
+## MinaResolution
+
+Respuesta cognitiva inmutable de MINA a una solicitud determinada. Explica alineación, virtudes requeridas, Crystal Set, cobertura, gaps, contradicciones, fuentes, incertidumbres y la representación entregada. No constituye approval, Task, Crystal ni ejecución. Véase el [MINA Universal Knowledge Protocol](../protocols/mina-universal-knowledge-protocol.md).
+
+## Compilation Receipt
+
+Registro verificable de la Compilation y representación exactas entregadas a un actor para una resolución. Conserva identidades, integridad, procedencia, capacidad, política y límites sin crear versiones de los Crystals o Faces incluidos.
 
 ## Crystal Affinity
 

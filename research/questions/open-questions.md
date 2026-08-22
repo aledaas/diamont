@@ -26,6 +26,15 @@ Este registro contiene preguntas abiertas; no constituye conocimiento cristaliza
 20. ¿Cómo representa el Patrimonio implementaciones conocidas sin confundirlas con Crystals?
 21. ¿Qué separa formalmente approval de ejecución y approval de cristalización?
 22. ¿Qué experimento mínimo valida MINA Analyze read-only antes de permitir búsqueda externa?
+23. ¿Qué raíz de confianza permite a cualquier proyecto localizar MINA y verificar una representación recibida sin transferencia manual entre actores?
+24. ¿Cómo genera MINA un Crystal Set y una Compilation bajo demanda sin convertirse en propietaria del Patrimonio?
+25. ¿Qué representación operacional compartida permite consultar el Crystal Graph sin definir su identidad mediante una tecnología de persistencia?
+26. ¿Cómo puede un actor nuevo descubrir DIAMONT y el conocimiento aplicable sin instrucciones específicas de otro actor o proveedor?
+27. ¿La autoridad contextual, el congelamiento de identidad y la revalidación previa al efecto constituyen Faces de un único Crystal?
+28. ¿Cómo demuestra un segundo proyecto que `Context-Bound Operational Authority` es conocimiento reusable y no sólo una solución local de Floulabs?
+29. ¿Qué parte mínima del Vue Operational Console puede parametrizarse sin arrastrar dominio, marca o dependencias con licencia no confirmada?
+30. ¿Qué conocimiento debe cristalizarse para que MINA componga un shell operacional sin convertir la materialización Floulabs en estándar universal?
+31. ¿El costo de mantener Vue como runtime aislado dentro de Filament queda justificado por la reutilización frente a una proyección equivalente sobre React?
 
 ## Portabilidad entre agentes
 

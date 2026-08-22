@@ -46,10 +46,16 @@ La precedencia entre sus momentos está regida por la Constitución. Su forma op
 - [Crystal Graph](discoveries/0001-crystal-graph.md) — hipótesis activa
 - [Knowledge Topology](discoveries/0002-knowledge-topology.md) — discovery observado
 - [Crystal Orchestration, Intent Re-Centering & MINA como Patrimonio Cognitivo](discoveries/0003-crystal-orchestration-intent-recentering.md) — discovery observado
+- [Acceso Universal al Patrimonio](discoveries/0004-universal-patrimony-access.md) — discovery observado
 - [Protocolo de investigación](research/protocols/research-protocol.md)
+- [MINA Universal Knowledge Protocol](research/protocols/mina-universal-knowledge-protocol.md) — especificación conceptual candidata
+- [MINA Analyze — Experimental Interoperability Profile](research/protocols/mina-analyze-experimental-profile.md) — primer perfil técnico candidato
 - [Preguntas de investigación](research/questions/open-questions.md)
 - [Análisis del modelo actual de Portfolio](research/studies/portfolio-current-model.md)
 - [Hipótesis de transición conceptual](research/studies/conceptual-transition.md)
+- [Estudio Floulabs — Context-Bound Operational Authority](research/studies/floulabs-context-bound-operational-authority.md) — episodio observado y candidato a cristalización
+- [Estudio Floulabs — Vue Operational Console](research/studies/floulabs-vue-operational-console-materialization.md) — Known Materialization candidata
+- [Experimento MINA Analyze — Portfolio Filament](research/experiments/mina-analyze-portfolio-filament/README.md) — primera KnowledgeRequest real
 - [Glosario provisional](research/studies/glossary.md)
 
 ## Crystals

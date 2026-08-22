@@ -1,0 +1,19 @@
+{
+  "protocol_revision": "mina.analyze/2026-08-21",
+  "message_id": "019f1234-5679-7abc-8def-0123456789ab",
+  "message_type": "mina_resolution",
+  "created_at": "2026-08-21T18:00:01Z",
+  "issuer": {"type": "service", "id": "mina"},
+  "payload": {
+    "resolution_id": "019f1234-5679-7abc-8def-0123456789ab",
+    "request_id": "019f1234-5678-7abc-8def-0123456789ab",
+    "request_payload_digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "outcome": "SUFFICIENT",
+    "intent_alignment": {"idea_preserved": true, "execution_intent": "analyze", "explanation": "Ejemplo inválido"},
+    "required_virtues": [],
+    "crystal_set": {"crystals": [{"crystal_id": "24ffc57f-10aa-4222-b9ae-bd4e7dbde04a", "role": "foundation", "epistemological_assertion": "active_for_context", "version": "2"}], "faces": [], "relations": []},
+    "selection_rationale": [], "coverage": [], "contradictions": [], "knowledge_gaps": [], "context_limits": [], "epistemological_assertions": [], "suggested_composition": [], "suggested_actions": [], "approval_requirements": [], "sources": [], "uncertainties": [],
+    "compilation_receipt": {"compilation_id": "019f1234-5680-7abc-8def-0123456789ab", "patrimony_authority": "urn:diamont:patrimony", "patrimony_materialization": {"kind": "operational_store_snapshot", "identity": "snapshot:example"}, "request_id": "019f1234-5678-7abc-8def-0123456789ab", "resolution_id": "019f1234-5679-7abc-8def-0123456789ab", "crystal_set_digest": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", "representation": {"media_type": "application/json", "digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"}, "generated_at": "2026-08-21T18:00:01Z", "generator": {"capability": "mina.analyze"}}
+  },
+  "integrity": {"canonicalization": "jcs-rfc8785", "algorithm": "sha256", "payload_digest": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"}
+}

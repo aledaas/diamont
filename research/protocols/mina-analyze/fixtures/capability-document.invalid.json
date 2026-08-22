@@ -1,0 +1,11 @@
+{
+  "service": "mina",
+  "service_instance_id": "019f1234-5678-7abc-8def-0123456789ab",
+  "supported_protocol_revisions": ["mina.analyze/2026-08-21"],
+  "capabilities": ["analyze"],
+  "patrimony_authority": "urn:diamont:patrimony",
+  "integrity_algorithms": ["sha256"],
+  "external_search": false,
+  "canonical_writes": true,
+  "authentication": ["local-development"]
+}

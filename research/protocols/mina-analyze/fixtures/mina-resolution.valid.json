@@ -1,0 +1,29 @@
+{
+  "protocol_revision": "mina.analyze/2026-08-21",
+  "message_id": "019f1234-5679-7abc-8def-0123456789ab",
+  "message_type": "mina_resolution",
+  "created_at": "2026-08-21T18:00:01Z",
+  "issuer": {"type": "service", "id": "mina"},
+  "payload": {
+    "resolution_id": "019f1234-5679-7abc-8def-0123456789ab",
+    "request_id": "019f1234-5678-7abc-8def-0123456789ab",
+    "request_payload_digest": "sha256:6e3024bbf101f246faa07c97c35d539e120234a6e5af45436b54d0f4f14821b1",
+    "outcome": "PARTIALLY_SUFFICIENT",
+    "intent_alignment": {"idea_preserved": true, "execution_intent": "analyze", "explanation": "La resolución sólo identifica conocimiento reutilizable."},
+    "required_virtues": ["identity", "auditability"],
+    "crystal_set": {"crystals": [{"crystal_id": "24ffc57f-10aa-4222-b9ae-bd4e7dbde04a", "role": "repository_protocol_foundation", "epistemological_assertion": "active_for_context"}], "faces": [], "relations": []},
+    "selection_rationale": ["El Crystal preserva el protocolo del repositorio"],
+    "coverage": ["identity covered"],
+    "contradictions": [],
+    "knowledge_gaps": ["No existe todavía conocimiento de pacientes"],
+    "context_limits": ["Sólo análisis read-only"],
+    "epistemological_assertions": ["Crystal activo para este contexto"],
+    "suggested_composition": ["Usar como fundamento de protocolo"],
+    "suggested_actions": ["Investigar el dominio de pacientes"],
+    "approval_requirements": ["Approval humano antes de crear trabajo"],
+    "sources": ["urn:diamont:crystal:24ffc57f-10aa-4222-b9ae-bd4e7dbde04a"],
+    "uncertainties": ["Dominio insuficientemente comprendido"],
+    "compilation_receipt": {"compilation_id": "019f1234-5680-7abc-8def-0123456789ab", "patrimony_authority": "urn:diamont:patrimony", "patrimony_materialization": {"kind": "operational_store_snapshot", "identity": "snapshot:example"}, "request_id": "019f1234-5678-7abc-8def-0123456789ab", "resolution_id": "019f1234-5679-7abc-8def-0123456789ab", "crystal_set_digest": "sha256:0d5492fed000f8b5e6b39104619a0cf88bda0e532d1d5defb22e93999fa68e1e", "representation": {"media_type": "application/json", "digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"}, "generated_at": "2026-08-21T18:00:01Z", "generator": {"capability": "mina.analyze"}}
+  },
+  "integrity": {"canonicalization": "jcs-rfc8785", "algorithm": "sha256", "payload_digest": "sha256:0df28ff3eeb80aa100c793e0d2e9b9932a8cc28528f933c2b9a26449a20831dc"}
+}

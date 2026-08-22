@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://diamont.example/schemas/mina/analyze/2026-08-21/capability-document.schema.json",
+  "title": "MINA Analyze Capability Document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["service", "service_instance_id", "supported_protocol_revisions", "capabilities", "patrimony_authority", "integrity_algorithms", "external_search", "canonical_writes", "authentication"],
+  "properties": {
+    "service": {"const": "mina"},
+    "service_instance_id": {"$ref": "#/$defs/uuidV7"},
+    "supported_protocol_revisions": {"type": "array", "minItems": 1, "uniqueItems": true, "contains": {"const": "mina.analyze/2026-08-21"}, "items": {"type": "string"}},
+    "capabilities": {"type": "array", "minItems": 1, "uniqueItems": true, "contains": {"const": "analyze"}, "items": {"type": "string"}},
+    "patrimony_authority": {"type": "string", "minLength": 1},
+    "integrity_algorithms": {"type": "array", "minItems": 1, "uniqueItems": true, "contains": {"const": "sha256"}, "items": {"type": "string"}},
+    "external_search": {"const": false},
+    "canonical_writes": {"const": false},
+    "authentication": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  },
+  "$defs": {
+    "uuidV7": {"type": "string", "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"}
+  }
+}
