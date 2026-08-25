@@ -191,10 +191,9 @@ Debe utilizar:
 - Application Composition Taxonomy;
 - Native Mobile Application Solution System;
 - backend Engines cuando sea identificado;
-- Figma SAKI como evidencia de dominio e información web, no como evidencia de experiencia móvil;
+- Figma SAKI como fuente mixta: el nodo `10908:2097` aporta evidencia web y el nodo `7051:14591` contiene flujos explícitamente identificados como mobile; cada afirmación debe conservar el nodo exacto y no trasladarse entre medios sin evidencia;
 - el repositorio `mina-wallet-mobile` como proyecto consumidor.
 
 ## Criterio de éxito
 
 El protocolo funciona si dos workers con contextos distintos pueden producir bundles comparables, MINA puede identificar conocimiento compartido y específico, y la comprensión posterior requiere menos reconstrucción conversacional que los episodios anteriores.
-
