@@ -1,0 +1,21 @@
+id: 8db9b144-bf28-405f-9830-903a8178a302
+name: Reusable Public Web Presence
+kind: solution_system
+created_at: 2026-08-31
+authors:
+  - Alejandro Daas
+origin:
+  type: collaborative_reasoning
+  intent: Preserve the reusable knowledge present in alejandrodaas.site and orient it toward the current Aledaas engineering work published on GitHub.
+genealogy:
+  formed_from:
+    - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+dependencies:
+  - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+    role: required
+imports:
+  - crystal: 9dc2828d-8bd0-4464-9c44-b5971686eb9a
+    role: reusable_knowledge
+sharing:
+  scope: organization
+status: crystallized
