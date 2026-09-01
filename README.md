@@ -66,6 +66,8 @@ La [especificación de reestructuración](crystals/24ffc57f-10aa-4222-b9ae-bd4e7
 
 [El Principio de Conservación del Conocimiento](crystals/32d724bc-9f22-40cd-b945-9929315fc385/README.md) es un Crystal filosófico candidato. Establece que los Crystals evolucionan mediante Faces y recristalización, nunca mediante versiones. Su activación todavía requiere resolver su relación con la Ley 5; por ello no integra el Knowledge Set de `diamont.yaml`.
 
+[Reusable Public Web Presence](crystals/8db9b144-bf28-405f-9830-903a8178a302/README.md) cristaliza el conocimiento necesario para construir sitios públicos reutilizables que comuniquen identidad, propuesta, trayectoria, capacidades, evidencia y vías de contacto sin acoplar el conocimiento a una persona, contenido, framework o proveedor. Su UUID es `8db9b144-bf28-405f-9830-903a8178a302`.
+
 ## Regla de propiedad
 
 Los agentes pueden interpretar, transformar y producir a partir del conocimiento, pero no son su fuente de verdad. El conocimiento debe permanecer bajo control de su ámbito legítimo, con identidad permanente, procedencia y posibilidad de reproducción independiente del producto, proveedor o modelo de IA. MINA se investiga como custodio y explorador del Patrimonio; Portfolio será la primera implementación nativa de DIAMONT y materializará ese conocimiento en proyectos.
