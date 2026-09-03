@@ -5,6 +5,7 @@ The DIAMONT language names the concepts used by the current engineering specific
 - [Software Factory](SOFTWARE_FACTORY.md)
 - [Requirement](REQUIREMENT.md)
 - [MINA](MINA.md)
+- [Materialization](MATERIALIZATION.md)
 - [Crystal](CRYSTAL.md)
 - [Face](FACE.md)
 - [Mission Control](MISSION_CONTROL.md)
@@ -12,4 +13,3 @@ The DIAMONT language names the concepts used by the current engineering specific
 - [Orfebre](ORFEBRE.md)
 - [Worker](WORKER.md)
 - [Crystallization](CRYSTALLIZATION.md)
-

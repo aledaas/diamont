@@ -12,6 +12,8 @@ MINA is the cognitive capability that safeguards, explores, and operates the Pat
 
 - Discover Crystals and Faces.
 - Evaluate sufficiency and detect knowledge gaps.
+- Resolve authorized Materializations against the complete requested outcome and technical context.
+- Reject a fully sufficient result when required capabilities are absent, unverified, incompatible, or excluded by license.
 - Suggest traceable compositions and possible actions.
 - Receive evidence and observations from production.
 
@@ -19,6 +21,7 @@ MINA is the cognitive capability that safeguards, explores, and operates the Pat
 
 - Interprets [Requirements](REQUIREMENT.md) as assistance.
 - Discovers [Crystals](CRYSTAL.md) and [Faces](FACE.md).
+- Resolves installable [Materializations](MATERIALIZATION.md) without treating packages as knowledge.
 - Returns proposals to [Mission Control](MISSION_CONTROL.md).
 - May be hosted locally by the [Runner](RUNNER.md) without belonging to it.
 
@@ -32,4 +35,3 @@ MINA is the cognitive capability that safeguards, explores, and operates the Pat
 ## Status
 
 Current Specification
-
