@@ -1,0 +1,46 @@
+campaign: diamont-knowledge-to-production
+channel: linkedin
+owner: Alejandro Daas
+status: active
+updated_at: 2026-09-05
+primary_language: en
+secondary_language: es
+landing_url: https://alejandrodaas.site/diamont.html
+newsletter:
+  name: Knowledge → Production
+  status: active
+  url: https://www.linkedin.com/newsletters/knowledge-%E2%86%92-production-7500406433772097537/
+current_piece: 3
+next_action: load_piece_04_as_linkedin_newsletter_draft_without_publishing
+publication_order:
+  - id: 1
+    slug: software-does-not-begin-with-code
+    status: published
+    published_at: 2026-09-01
+    standalone_article_url: https://www.linkedin.com/pulse/software-doesnt-begin-code-alejandro-ibrahin-daas-xrfff
+    publication_url: https://www.linkedin.com/pulse/software-doesnt-begin-code-alejandro-ibrahin-daas-sdpff/
+  - id: 2
+    slug: documentation-is-not-knowledge
+    status: published
+    published_at: 2026-09-01
+    publication_url: https://www.linkedin.com/pulse/documentation-knowledge-alejandro-ibrahin-daas-wfzlf/
+  - id: 3
+    slug: diamont-knowledge-to-production
+    status: ready_for_review
+    published_at: null
+    publication_url: null
+  - id: 4
+    slug: shortest-path-intent-to-software
+    status: ready_for_review
+    published_at: null
+    publication_url: null
+blocked_inputs:
+  - target_client_priority
+  - public_scope_floulabs
+  - finance_engines_repository
+  - public_scope_favorx
+  - measured_capacity_baseline
+measurement_windows:
+  - 48h
+  - 7d
+  - 30d

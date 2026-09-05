@@ -1,0 +1,69 @@
+observed_at: 2026-09-05
+source: linkedin_analytics_screenshots
+window: approximately_4_days_after_publication
+newsletter:
+  name: Knowledge → Production
+  editions: 2
+  subscribers_total: 145
+  new_subscribers_last_7_days: 144
+  aggregate_last_7_days:
+    impressions: 238
+    engagements: 3
+    article_views: 12
+  subscriber_demographics_top_job_titles:
+    - title: IT recruiter
+      share: 5%
+    - title: Software engineer
+      share: 5%
+    - title: Talent acquisition
+      share: 4%
+pieces:
+  - id: 1
+    title: Software Doesn't Begin With Code
+    impressions: 118
+    members_reached: 71
+    audience:
+      in_network: 49%
+      out_of_network: 51%
+    article_views: 3
+    emails_sent: 0
+    email_open_rate: 0%
+    profile_views: 1
+    followers_gained: 0
+    social_engagements: 2
+    reactions: 2
+    comments: 0
+    reposts: 0
+    saves: 0
+    sends: 0
+  - id: 2
+    title: Documentation Is Not Knowledge
+    impressions: 129
+    members_reached: 67
+    audience:
+      in_network: 59%
+      out_of_network: 41%
+    article_views: 10
+    emails_sent: 1
+    email_open_rate: 100%
+    profile_views: 0
+    followers_gained: 0
+    social_engagements: 3
+    reactions: 3
+    comments: 0
+    reposts: 0
+    saves: 0
+    sends: 0
+interpretation:
+  - Subscriber growth is strong in volume, rising from the publication baseline of 1 to 145.
+  - Article readership and substantive engagement remain early and limited; subscriber growth must not be interpreted as commercial demand.
+  - Edition 02 generated more article views than edition 01 despite similar reach, supporting continued use of problem-led titles and concrete contrasts.
+  - Edition 01 reached a larger share outside the author's network, which is useful for discovery.
+  - The visible subscriber job-title sample includes software and recruiting roles but does not yet demonstrate concentration among fintech founders or CTOs.
+  - Email delivery figures reflect subscriber count at publication time, not the current subscriber base.
+data_quality_notes:
+  - LinkedIn describes these metrics as estimates and values can change between captures.
+  - Aggregate totals do not exactly equal the sum of the two individual snapshots: 238 versus 247 impressions, 3 versus 5 engagements, and 12 versus 13 article views.
+  - Preserve both aggregate and per-edition values without forcing reconciliation because the screenshots may represent different refresh times or counting scopes.
+next_measurement: 2026-09-08
+next_measurement_window: 7d

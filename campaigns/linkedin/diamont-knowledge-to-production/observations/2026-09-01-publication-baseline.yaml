@@ -1,0 +1,19 @@
+observed_at: 2026-09-01
+source: linkedin_newsletter_administration_screenshot
+newsletter:
+  name: Knowledge → Production
+  status: active
+  editions: 2
+  subscribers: 1
+  frequency: weekly
+pieces:
+  - id: 1
+    status: published_as_newsletter_edition
+  - id: 2
+    status: published_as_newsletter_edition
+    observed_age: approximately_2_minutes
+interpretation: null
+notes:
+  - This is a publication baseline, not a performance measurement.
+  - Do not compare the two editions until equivalent observation windows exist.
+next_measurement: 48h

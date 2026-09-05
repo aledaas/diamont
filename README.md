@@ -57,6 +57,7 @@ La precedencia entre sus momentos está regida por la Constitución. Su forma op
 - [Estudio Floulabs — Vue Operational Console](research/studies/floulabs-vue-operational-console-materialization.md) — Known Materialization candidata
 - [Experimento MINA Analyze — Portfolio Filament](research/experiments/mina-analyze-portfolio-filament/README.md) — primera KnowledgeRequest real
 - [Glosario provisional](research/studies/glossary.md)
+- [Campaña LinkedIn — DIAMONT: Knowledge to Production](campaigns/linkedin/diamont-knowledge-to-production/README.md) — narrativa pública, piezas, activos y continuidad editorial
 
 ## Crystals
 
